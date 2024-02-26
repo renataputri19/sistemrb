@@ -1,0 +1,38 @@
+.footer-logo {
+  max-width: 300px; /* Adjust the logo size */
+  height: auto;
+}
+
+.btn-floating {
+  border-radius: 50%;
+  padding: 10px; /* Adjust button size */
+}
+
+/* Adjustments for small screens */
+@media (max-width: 1000px) {
+  .footer-logo {
+    max-width: 300px; /* Smaller logo for mobile */
+  }
+}
+
+/* footer.css */
+ul.list-unstyled li a {
+  font-size: 1.1rem; /* Adjust the size as needed */
+}
+
+
+footer h5 {
+  color: #333;
+  margin-bottom: 0.5em;
+  margin-top: 0.8em;
+  font-size: 1.5rem;
+}
+
+footer a {
+  color: #007bff; /* Bootstrap primary color for links */
+  transition: color 0.3s;
+}
+
+footer a:hover {
+  color: #0056b3; /* Darker shade for hover state */
+}

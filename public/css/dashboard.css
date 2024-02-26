@@ -1,0 +1,57 @@
+.dashboard-section {
+  background-color: #FFFFFF; /* White background for the dashboard section */
+  padding-top: 2rem; /* Top padding */
+  padding-bottom: 2rem; /* Bottom padding */
+}
+
+.dashboard-header {
+  color: #333; /* Dark color for headers */
+  margin-bottom: 1rem; /* Space below the header */
+}
+
+.chart-container {
+  background: #f8f9fa; /* Light grey background for the chart area */
+  padding: 1rem; /* Padding around the chart */
+  border: 1px solid #eaeaea; /* Light border for the chart container */
+  border-radius: 4px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+canvas {
+  max-width: 100%; /* Ensures canvas is responsive */
+  height: auto; /* Auto-height for canvas */
+  margin: auto; /* Center canvas within its container */
+}
+
+@media (max-width: 768px) {
+  .chart-container {
+      padding: 1rem; /* Smaller padding on small screens */
+  }
+}
+
+.container-jadwal .text-center {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.container-jadwal .mb-4 {
+  margin-bottom: 1.5rem; /* Bootstrap's margin-bottom space */
+}
+
+.container-jadwal .iframe-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%; /* Aspect ratio of 16:9 */
+  height: 0;
+  margin-right: 4rem;
+  margin-left: 4rem;
+}
+
+.container-jadwal .iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  border: none;
+}
