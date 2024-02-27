@@ -7,21 +7,7 @@
 
 
 
-<div class="container-jadwal" data-aos="fade-up">
-    <!-- Other content -->
-    
-    <h2 class="text-center mb-4">Dashboard Perencanaan Statistik Sektoral 2024</h2>
-    <div class="text-center mb-4">
-        <a href="https://docs.google.com/spreadsheets/d/1IIvd6kYLBMrfgjXQkLBo9J8CubXH-zbibo3yjGIiGV8/edit?usp=sharing" target="_blank" class="btn btn-primary">Open Spreadsheet</a>
-    </div>
 
-    <!-- Responsive iframe wrapper -->
-    <div class="iframe-container">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfeQPUsQdUjOYw2C2g9LpdfTkHxieoi-5LYw4eYNLkdHFJB3Q/viewform?embedded=true">Loading…</iframe>
-    </div>
-    
-    <!-- Other content -->
-</div>
 
 
 
@@ -68,6 +54,23 @@
             </div>
         </div>
     </section>
+
+
+    <div class="container-jadwal" data-aos="fade-up">
+        <!-- Other content -->
+        
+        <h2 class="text-center mb-4">Dashboard Perencanaan Statistik Sektoral 2024</h2>
+        <div class="text-center mb-4">
+            <a href="https://docs.google.com/spreadsheets/d/1IIvd6kYLBMrfgjXQkLBo9J8CubXH-zbibo3yjGIiGV8/edit?usp=sharing" target="_blank" class="btn btn-primary">Open Spreadsheet</a>
+        </div>
+    
+        <!-- Responsive iframe wrapper -->
+        <div class="iframe-container">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfeQPUsQdUjOYw2C2g9LpdfTkHxieoi-5LYw4eYNLkdHFJB3Q/viewform?embedded=true">Loading…</iframe>
+        </div>
+        
+        <!-- Other content -->
+    </div>
 
     <section class="section-after-hero" style="background-color: #ffffff;">
         <section class="section-after-hero-1">

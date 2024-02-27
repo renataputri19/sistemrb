@@ -15,15 +15,15 @@ class UsersTableSeeder extends Seeder
     {
         // Create two dummy users
         User::create([
-            'username' => 'tpb2171',
-            'password' => 'admintpb',
-            'admin' => true,
+            'username' => 'rb2171',
+            'password' => 'rb2171',
+            'admin' => false,
         ]);
 
         User::create([
-            'username' => 'walidata2171',
-            'password' => 'kominfo2171',
-            'admin' => false,
+            'username' => 'subuh2171',
+            'password' => 'subuh2171',
+            'admin' => true,
         ]);
 
 

@@ -57,22 +57,10 @@
                         <a href="#beranda" class="nav-link">Beranda</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#tentang-epss" class="nav-link">Tentang EPSS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#romantik" class="nav-link">Romantik</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#simbatik" class="nav-link">Simbatik</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#indah" class="nav-link">Indah</a>
-                    </li>
-                    <li class="nav-item">
                         <a href="#hubungi-kami" class="nav-link">Hubungi Kami</a>
                     </li>
                     <li class="nav-item">
-                        <a href="{{ url('/epss') }}" class="nav-link">EPSS</a>
+                        <a href="{{ url('/epss') }}" class="nav-link">Reformasi Birokrasi</a>
                     </li>
                     <li class="nav-item">
                         <a href="{{ url('/login') }}" class="nav-link">Login</a>
@@ -102,9 +90,6 @@
                     </li>
                     <li class="nav-item">
                         <a href="{{ url('/dashboard') }}" class="nav-link {{ Request::is('dashboard') ? 'active' : '' }}">Dashboard</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="{{ url('/list-opd') }}" class="nav-link {{ Request::is('list-opd') ? 'active' : '' }}">List OPD</a>
                     </li>
                     <li class="nav-item">
                         @if(Auth::check())
