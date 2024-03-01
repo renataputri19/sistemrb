@@ -71,23 +71,22 @@
                 @else
                     <!-- Nav items for other pages -->
                     <li class="nav-item">
-                        <a href="{{ url('/epss') }}" class="nav-link {{ Request::is('epss') ? 'active' : '' }}">EPSS</a>
+                        <a href="{{ url('/beranda') }}" class="nav-link {{ Request::is('beranda') ? 'active' : '' }}">Beranda</a>
                     </li>
                     <li class="nav-item">
-                        <a href="{{ url('/sdi') }}" class="nav-link {{ Request::is('sdi') ? 'active' : '' }}">Prinsip SDI</a>
+                        <a href="{{ url('/reform') }}" class="nav-link {{ Request::is('reform') ? 'active' : '' }}">Reform</a>
                     </li>
                     <li class="nav-item">
-                        <a href="{{ url('/kualitas-data') }}" class="nav-link {{ Request::is('kualitas-data') ? 'active' : '' }}">Kualitas Data</a>
+                        <a href="{{ url('/pemenuhan') }}" class="nav-link {{ Request::is('pemenuhan') ? 'active' : '' }}">Pemenuhan</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="{{ url('/proses-bisnis-statistik') }}" class="nav-link {{ Request::is('proses-bisnis-statistik') ? 'active' : '' }}">Proses Bisnis Statistik</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="{{ url('/kelembagaan') }}" class="nav-link {{ Request::is('kelembagaan') ? 'active' : '' }}">Kelembagaan</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="{{ url('/statistik-nasional') }}" class="nav-link {{ Request::is('statistik-nasional') ? 'active' : '' }}">Statistik Nasional</a>
-                    </li>
+                    @if(Auth::check() && Auth::user()->admin)
+                        <li class="nav-item">
+                            <a href="{{ url('/file-reform') }}" class="nav-link {{ Request::is('file-reform') ? 'active' : '' }}">File Reform</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ url('/file-pemenuhan') }}" class="nav-link {{ Request::is('file-pemenuhan') ? 'active' : '' }}">File Pemenuhan</a>
+                        </li>
+                    @endif
                     <li class="nav-item">
                         <a href="{{ url('/dashboard') }}" class="nav-link {{ Request::is('dashboard') ? 'active' : '' }}">Dashboard</a>
                     </li>
