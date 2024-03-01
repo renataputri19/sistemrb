@@ -23,7 +23,7 @@
                 
                         <!-- Responsive iframe wrapper -->
                         <div class="iframe-container">
-                            <iframe src="https://docs.google.com/spreadsheets/d/1_JMGfZD5VoEhXYP46gU8N-O58YK28OQXQYRMQyF8dQ4/edit?usp=sharing"></iframe>
+                            <iframe src="https://docs.google.com/spreadsheets/d/1_JMGfZD5VoEhXYP46gU8N-O58YK28OQXQYRMQyF8dQ4/edit?rm=minimal"></iframe>
                         </div>
                         
                         <!-- Other content -->

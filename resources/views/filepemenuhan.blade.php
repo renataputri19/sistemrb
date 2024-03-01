@@ -19,7 +19,7 @@
                 
                         <!-- Responsive iframe wrapper -->
                         <div class="iframe-container">
-                            <iframe src="https://docs.google.com/spreadsheets/d/13xsRAh9bnVcaD-zuUuAiPWf_fYDDpeXqn835jT4zIuA/edit?usp=sharing">Loading…</iframe>
+                            <iframe src="https://docs.google.com/spreadsheets/d/13xsRAh9bnVcaD-zuUuAiPWf_fYDDpeXqn835jT4zIuA/edit?rm=minimal">Loading…</iframe>
                         </div>
                         
                         <!-- Other content -->
