@@ -20,7 +20,9 @@
                     <p class="hero-text">Link bukti dukung tambahan : http://s.bps.go.id/PersiapanZI3322_2023</p>
                     <p class="hero-text">Contoh bps kendal: http://s.bps.go.id/rbbpskendal</p>
                     <p class="hero-text">Contoh lainnya: http://s.bps.go.id/WorkshopZI2024 </p>
+                    <p class="hero-text">Link contoh BPS Batam tahun sebelumnya: https://drive.bps.go.id/s/GqPBoBrqJGfyLjT </p>
                     <p class="hero-text">Linktree Full BPS Batam: https://linktr.ee/bpsbatam </p>
+
                 </div>
                 <div class="col-lg-6">
                     <!-- You can add an image here or use an icon library like Font Awesome -->
