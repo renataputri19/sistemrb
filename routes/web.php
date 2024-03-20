@@ -3,11 +3,13 @@
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\HasilController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\LogoutController;
 use App\Http\Controllers\ReformController;
 use App\Http\Controllers\BerandaController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\FileHasilController;
 use App\Http\Controllers\PemenuhanController;
 use App\Http\Controllers\FileReformController;
 use App\Http\Controllers\FilePemenuhanController;
@@ -45,8 +47,10 @@ Route::middleware(['auth'])->group(function () {
 
     Route::get('/reform',[ReformController::class, 'reform'])->name('reform');
     Route::get('/pemenuhan',[PemenuhanController::class, 'pemenuhan']);
+    Route::get('/hasil',[HasilController::class, 'hasil']);
     Route::get('/file-reform',[FileReformController::class, 'filereform']);
     Route::get('/file-pemenuhan ',[FilePemenuhanController::class, 'filepemenuhan']);
+    Route::get('/file-hasil ',[FileHasilController::class, 'filehasil']);
     
     
     Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard');

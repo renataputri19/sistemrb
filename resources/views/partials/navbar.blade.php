@@ -79,12 +79,15 @@
                     <li class="nav-item">
                         <a href="{{ url('/pemenuhan') }}" class="nav-link {{ Request::is('pemenuhan') ? 'active' : '' }}">Pemenuhan</a>
                     </li>
+                    <li class="nav-item">
+                        <a href="{{ url('/hasil') }}" class="nav-link {{ Request::is('hasil') ? 'active' : '' }}">Hasil</a>
+                    </li>
                     @if(Auth::check() && Auth::user()->admin)
                         <li class="nav-item">
                             <a href="{{ url('/file-reform') }}" class="nav-link {{ Request::is('file-reform') ? 'active' : '' }}">File Reform</a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url('/file-pemenuhan') }}" class="nav-link {{ Request::is('file-pemenuhan') ? 'active' : '' }}">File Pemenuhan</a>
+                            <a href="{{ url('git a/file-pemenuhan') }}" class="nav-link {{ Request::is('file-pemenuhan') ? 'active' : '' }}">File Pemenuhan</a>
                         </li>
                     @endif
                     <li class="nav-item">
