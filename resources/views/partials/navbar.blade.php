@@ -87,7 +87,7 @@
                             <a href="{{ url('/file-reform') }}" class="nav-link {{ Request::is('file-reform') ? 'active' : '' }}">File Reform</a>
                         </li>
                         <li class="nav-item">
-                            <a href="{{ url('git a/file-pemenuhan') }}" class="nav-link {{ Request::is('file-pemenuhan') ? 'active' : '' }}">File Pemenuhan</a>
+                            <a href="{{ url('/file-pemenuhan') }}" class="nav-link {{ Request::is('file-pemenuhan') ? 'active' : '' }}">File Pemenuhan</a>
                         </li>
                     @endif
                     <li class="nav-item">
