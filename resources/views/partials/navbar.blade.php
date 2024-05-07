@@ -94,6 +94,9 @@
                         <a href="{{ url('/dashboard') }}" class="nav-link {{ Request::is('dashboard') ? 'active' : '' }}">Dashboard</a>
                     </li>
                     <li class="nav-item">
+                        <a href="{{ url('/penilaianmandiri') }}" class="nav-link {{ Request::is('penilaianmandiri') ? 'active' : '' }}">Penilaian Mandiri</a>
+                    </li>
+                    <li class="nav-item">
                         @if(Auth::check())
                             <a href="{{ route('logout') }}" 
                             onclick="event.preventDefault(); document.getElementById('logout-form').submit();" 

@@ -13,6 +13,7 @@ use App\Http\Controllers\FileHasilController;
 use App\Http\Controllers\PemenuhanController;
 use App\Http\Controllers\FileReformController;
 use App\Http\Controllers\FilePemenuhanController;
+use App\Http\Controllers\PenilaianMandiriController;
 
 /*
 |--------------------------------------------------------------------------
@@ -51,6 +52,7 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/file-reform',[FileReformController::class, 'filereform']);
     Route::get('/file-pemenuhan ',[FilePemenuhanController::class, 'filepemenuhan']);
     Route::get('/file-hasil ',[FileHasilController::class, 'filehasil']);
+    Route::get('/penilaianmandiri ',[PenilaianMandiriController::class, 'penilaianmandiri']);
     
     
     Route::get('/dashboard', [DashboardController::class, 'dashboard'])->name('dashboard');
